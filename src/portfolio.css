@@ -1,0 +1,38 @@
+.navbar {
+    background-color: floralwhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 10px dotted pink;
+    border-radius: 10px;
+  }
+  
+  .portfolio {
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Added to give space between table and total */
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid rgb(145, 139, 135);
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: rgb(172, 131, 131);
+  }
+  
+  .table td {
+    background-color: lightblue;
+  }
